@@ -1,0 +1,41 @@
+.pin-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-bottom: 16px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.pin-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+.pin-image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.pin-image {
+  width: 100%;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+.save-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #e60023;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+.save-button:hover {
+  opacity: 1;
+}
+.pin-info {
+  padding: 12px 16px;
+}
